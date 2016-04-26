@@ -1,0 +1,5 @@
+<h1>Products</h1>
+<button ui-sref='admin'>Manage Products</button>
+<ul>
+  <li ng-repeat='product in products'>{{product.title}} ({{product.description}}): ${{product.price}}</li>
+</ul>
